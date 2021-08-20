@@ -83,7 +83,7 @@ export default function App() {
           <span style={{ color: "silver" }}>Read📚Good </span>
         </h1>
         <p style={{ color: "white" }}>
-          Here are my favorite books. Select genres below to know more.
+          Here are my favorite books. Select From below Category to know more.
         </p>
         <ul className="genreList">
           {Object.keys(booksinDb).map((event) => (
