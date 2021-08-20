@@ -82,7 +82,9 @@ export default function App() {
         <h1>
           <span style={{ color: "silver" }}>Read📚Good </span>
         </h1>
-        <p>Here are my favorite books. Select genres below to know more.</p>
+        <p style={{ color: "white" }}>
+          Here are my favorite books. Select genres below to know more.
+        </p>
         <ul className="genreList">
           {Object.keys(booksinDb).map((event) => (
             <li key={event}>
