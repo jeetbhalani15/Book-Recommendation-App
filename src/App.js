@@ -90,7 +90,7 @@ export default function App() {
             </li>
           ))}
         </ul>
-        <hr />
+        {/* <hr /> */}
         <br />
         <div className="recomm">
           <ul>
