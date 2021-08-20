@@ -90,7 +90,7 @@ export default function App() {
             </li>
           ))}
         </ul>
-        {/* <hr /> */}
+        <hr />
         <br />
         <div className="recomm">
           <ul>
@@ -109,7 +109,7 @@ export default function App() {
                   <span style={{ fontSize: "smaller", color: "white" }}>
                     {book.author}
                   </span>
-                  <hr />
+                  {/* <hr /> */}
                 </li>
               ))
               //console.log(recommendationDatabase.Classics[0]);
