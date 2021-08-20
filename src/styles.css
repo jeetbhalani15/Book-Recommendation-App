@@ -24,7 +24,7 @@ ul {
   border: 0px;
   cursor: pointer;
   padding: 0.5rem;
-  background-color: #d1d5db;
+  /* background-color: #d1d5db; */
   border-radius: 10px;
   margin: 10px;
 }
@@ -36,13 +36,13 @@ ul {
 }
 
 .recomm {
-  text-align: left;
+  text-align: center;
 }
 
 .item {
   padding: 1rem;
   border-radius: 10px;
   border-color: gray;
-  border: 1px solid#D1D5DB;
+  /* border: 1px solid#D1D5DB; */
   margin-bottom: 1rem;
 }

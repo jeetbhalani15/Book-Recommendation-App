@@ -5,68 +5,68 @@ var booksinDb = {
     {
       name: "Treasure Island",
       rating: "⭐  4.5",
-      author: "Robert Louis Stevenson"
+      author: "by Robert Louis Stevenson"
     },
     {
       name: "A Midsummer Night's Dream",
       rating: "⭐  4.8",
-      author: "William Shakespeare"
+      author: " by William Shakespeare"
     },
     {
       name: "Pride & Prejudice",
       rating: "⭐  4.7",
-      author: "Jane Austen"
+      author: " by Jane Austen"
     }
   ],
   "Sci-Fic": [
     {
       name: "The Lord Of The Rings",
       rating: "⭐  4.9",
-      author: "J.R.R. Tolkien"
+      author: "by J.R.R. Tolkien"
     },
     {
       name: "The Princess Bride",
       rating: "⭐  4.1",
-      author: "William Goldman"
+      author: "by William Goldman"
     },
     {
       name: "The Martian Chronicles",
       rating: "⭐  4.5",
-      author: "Ray Bradbury"
+      author: "by Ray Bradbury"
     }
   ],
   Fiction: [
     {
       name: "Harry Potter",
       rating: "⭐  4.9",
-      author: "J. K. Rowling"
+      author: "by J. K. Rowling"
     },
     {
       name: "Frankenstein",
       rating: "⭐  4.2",
-      author: "Mary Shelley"
+      author: "by Mary Shelley"
     },
     {
       name: "The Hare",
       rating: "⭐  4.7",
-      author: "Melanie Finn"
+      author: "by Melanie Finn"
     }
   ],
   Mystery: [
     {
       name: "THE SILENT PATIENT",
       rating: "⭐  4.8",
-      author: "ALEX MICHAELIDES"
+      author: "by ALEX MICHAELIDES"
     },
     {
       name: "GONE GIRL",
       rating: "⭐  4.4",
-      author: "GILLIAN FLYNN"
+      author: "by GILLIAN FLYNN"
     },
     {
       name: "REBECCA ",
       rating: "⭐  4.8",
-      author: "DAPHNE DU MAURIER"
+      author: "by DAPHNE DU MAURIER"
     }
   ]
 };
@@ -99,7 +99,8 @@ export default function App() {
                 <li className="item" key={book.name}>
                   <span style={{ fontSize: "larger", color: "white" }}>
                     {book.name}
-                  </span>{" "}
+                  </span>
+
                   <br />
                   <span style={{ fontSize: "smaller", color: "white" }}>
                     {book.rating}
@@ -108,6 +109,7 @@ export default function App() {
                   <span style={{ fontSize: "smaller", color: "white" }}>
                     {book.author}
                   </span>
+                  <hr />
                 </li>
               ))
               //console.log(recommendationDatabase.Classics[0]);
